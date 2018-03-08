@@ -1,0 +1,317 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+
+body{
+	height:100%;
+}
+ul{
+	display: inline;
+}
+
+.navbar {
+    background-color: #E5C75F !important;
+    width:100%;
+    display: inline-block;
+}
+
+.bg1 { 
+    /* The image used */
+    background-image: url("images/background.jpg");
+
+    /* Full height */
+
+    height: auto !important;
+    width: 100%;
+ 
+    /* Center and scale the image nicely */
+
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-color:  #FAECD1; 
+}
+.bg {  
+    /* The image used */
+    background-image: url("images/background.jpg");
+
+    /* Full height */
+    height: 100%; 
+    background-color:  #E5C75F; 
+    /* Center and scale the image nicely */
+    background-position: top center;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  #E5C75F;  
+}
+
+.img-fluid{
+	z-index: 0;
+	width: 100%;
+	height: 100% !important;
+}
+.full-width{
+	    /* Full height */
+
+    width: 100% !important;
+ 	padding: 18%;
+    /* Center and scale the image nicely */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+	background-image: url("images/banner.png");
+}
+
+.bit{
+	    /* Full height */
+
+    width: 100% !important;
+ 	padding: 18%;
+    /* Center and scale the image nicely */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+	background-image: url("images/bit.png");
+}
+.about{
+	    /* Full height */
+
+    width: 100% !important;
+    height: 100% !important;
+    /* Center and scale the image nicely */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+	background-image: url("images/about.png");
+}
+.sec{
+	border-right-width: 5px;
+	border-right-color: red;
+}
+
+
+.first{/*moves container down*/
+	padding-top: 23%;
+}
+.footer{
+	background-color: #E5C75F !important;
+	padding: 15px;
+}
+.row{
+	padding-left: 4% !important;
+	padding-right: 4% !important;
+}
+.btn-group{
+	padding-bottom: 10px;
+}
+
+.card-img-top{	
+	padding-bottom: 0px;
+	margin-bottom: 0px ;
+}
+
+.card-body{
+	margin: 0px !important;
+	padding: 0px !important;
+	max-width: 100% !important;
+}
+
+.card{
+	width: 100%;
+	background-color: #f8f8f8 !important;
+	border-width: 2px !important;
+
+}
+.col-4{
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+.this{
+	position:top;
+}
+
+@media (min-width: 18em) {
+	.this{
+		width: 80px !important ;
+		font-size: 10px !important;
+	}
+}
+
+
+@media (min-width: 33em) {
+	.this{
+		width: 100px !important ;
+		font-size: 16px !important;	
+	}
+}
+
+@media (min-width: 47em) {
+	.this{
+		width: 140px !important ;
+		font-size: 19px !important;
+	}
+}
+
+@media (min-width: 18em) {
+	.card-text {
+		font-size: 10px !important ;
+	}
+}
+
+.box{
+	padding-bottom: 10px !important;
+ 	border: #cdcdcd medium solid;
+ 	border-width: 1px;
+ 	border-top-color: #faecd1;
+ 	border-bottom-color: #faecd1;
+ 	width: 110% !important;
+
+}
+
+@media (max-width: 575px) {
+	.box {	
+	border:none!important;
+	width: 100% !important;
+	}
+}
+.section{
+	background-color: #faecd1;
+}
+.hi{padding-left: 5px;}
+.col-sm-4 p{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.col-sm-4{
+	text-align: center;
+	padding-left: 10px;
+}
+
+@media (min-width: 33em) {
+	.card-text{
+		font-size: 19px !important ;
+	}
+}
+
+
+@media (min-width: 47em) {
+	.card-text{
+		font-size: 25px !important ;
+	}
+}
+@media (min-width: 58em) {
+	.card-text{
+		font-size: 35px !important ;
+	}
+}
+@media (min-width: 18em) {
+	.shopnowtitle {
+		font-size: 24px !important ;
+	}
+}
+
+@media (min-width: 33em) {
+	.shopnowtitle{
+		font-size: 30px !important ;
+	}
+}
+
+@media (min-width: 47em) {
+	.shopnowtitle{
+		font-size: 25px !important ;
+	}
+}
+@media (min-width: 58em) {
+	.shopnowtitle{
+		font-size: 35px !important ;
+	}
+}
+
+
+.abouttext1{
+	padding-top: 5%;
+}
+
+.abouttext, .abouttext1{
+	font-family: "Bellefair";
+	font-weight: 100px;
+	text-indent: 50px;
+	text-align: center; 
+	padding-left: 13%;
+	padding-right: 13%;
+}
+@media (min-width: 18em) {
+	.abouttext, .abouttext1 {
+		font-size: 16px !important ;
+	}
+}
+
+@media (min-width: 47em) {
+	.abouttext, .abouttext1{
+		font-size: 20px !important ;
+	}
+}
+
+
+.ugh{
+	
+	color: white !important;
+	border-color: white !important;
+
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+	.ugh {
+		width: 90px !important ;
+		font-size: 10px !important;
+		margin-bottom: 10px !important;
+			border-width: 3px !important;
+	top:70%;
+	position: center;
+	z-index: 1 !important;
+	position: absolute;
+	left: 40%;
+		}
+	}
+@media (min-width: 401px) and (max-width: 800px) {
+	.ugh {
+		width: 110px !important ;
+		font-size: 10px !important;
+		margin-bottom: 10px !important;
+			top:70%;
+	position: center;
+	z-index: 1 !important;
+	position: absolute;
+	left: 40%;
+				border-width: 3px !important;
+		
+	}
+}
+.description{
+	font-size: 10px;
+	padding: 5px;
+}
+
+@media (min-width: 801px) {
+	.ugh{
+		width: 200px !important ;
+		font-size: 16px !important;	
+			top:70%;
+	position: center;
+	z-index: 1 !important;
+	position: absolute;
+	left: 40%;
+				border-width: 3px !important;
+	}
+}
+.rowtwo {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.rowtwo > div[class*='col-'] {
+  display: flex;
+}
